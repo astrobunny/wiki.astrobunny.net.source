@@ -15,7 +15,6 @@ cp -r ./gittemp build/.git
 pushd build
 echo hibiol.davidsiaw.net > CNAME
 cp not_found/index.html 404.html
-cp -r ../css/fonts css
 git add .
 git add -u
 git commit -m "update `date`"

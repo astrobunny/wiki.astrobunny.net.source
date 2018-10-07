@@ -14,7 +14,6 @@ jobs:
             tar -xz -C /tmp -f /tmp/docker-$VER.tgz
             sudo mv -f /tmp/docker/* /usr/local/bin
       - setup_remote_docker:
-          docker_layer_caching: true
           version: 17.05.0-ce
       - add_ssh_keys:
           fingerprints: "2d:05:a0:57:6a:43:e4:8f:25:27:3c:84:f2:31:88:e5"
