@@ -5,9 +5,6 @@ git config --global user.name "David Siaw (via Circle CI)"
 
 git clone git@github.com:davidsiaw/hibiol.davidsiaw.net.git build
 cp -r build/.git ./gittemp
-bundle install
-ruby prepfiles.rb
-ruby read.rb
 docker run -v `pwd`/build:/app/release -v `pwd`/data:/app/data -v `pwd`/images:/app/images -ti davidsiaw/hibiol build
 cp -r ./gittemp build/.git
 pushd build
