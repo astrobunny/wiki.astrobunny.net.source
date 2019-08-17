@@ -16,5 +16,5 @@ jobs:
       - setup_remote_docker:
           version: 17.05.0-ce
       - add_ssh_keys:
-          fingerprints: "2d:05:a0:57:6a:43:e4:8f:25:27:3c:84:f2:31:88:e5"
+          fingerprints: "ff:b1:40:d1:1b:8d:6c:a7:58:fa:6c:06:47:ff:58:c9"
       - run: bash deploy.bash
