@@ -1,8 +1,8 @@
-# hibiol-wiki
+# wiki.astrobunny.net
 
 ## To read:
 
-https://hibiol.davidsiaw.net
+https://wiki.astrobunny.net
 
 ## To edit:
 
@@ -18,5 +18,5 @@ If you wish to change something, fork this repo, edit the page and make a PR
 
 ## Links:
 
-- Hibiol - https://github.com/davidsiaw/hibiol
+- Wiki Software - https://github.com/davidsiaw/hibiol
 - Built Wiki Site - https://github.com/davidsiaw/hibiol.davidsiaw.net
